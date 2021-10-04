@@ -1,0 +1,40 @@
+/***WEB DEV BOOTCAMP CSS STYLES****/
+
+body {
+  background-color: #4f6b40;
+  color: #eee8aa;
+  font-family: sans-serif;
+}
+
+h1, h3 {
+  color: #1d2e15;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: yellow;
+}
+
+table {
+  background-color: #48613c;
+  padding: 0 15px 15px 15px;
+}
+
+hr {
+  border-style: none;
+  background-color: #1d2e15;
+  width: 75%;
+}
+
+img {
+  max-width: 900px;
+}
+
+/****CLASS STYLES****/
+.card {
+  width: 900px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+}
