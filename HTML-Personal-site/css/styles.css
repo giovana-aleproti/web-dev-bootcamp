@@ -1,6 +1,6 @@
 /********TAG SELECTORS*********/
 body {
-  background-color: #a4bade;
+  background-color: #b3c5e3;
 }
 
 h1, h3 {
@@ -21,4 +21,9 @@ td {
 /*********CLASS SELECTORS******/
 .moon-table {
   background-color: #bbbfc7;
+}
+
+.hobbie-pictures {
+  max-width: 450px;
+
 }
