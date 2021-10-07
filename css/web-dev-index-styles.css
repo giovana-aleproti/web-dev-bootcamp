@@ -1,13 +1,6 @@
 /***WEB DEV BOOTCAMP CSS STYLES****/
-
 body {
-  background-color: #4f6b40;
-  color: #eee8aa;
-  font-family: sans-serif;
-}
-
-h1, h3 {
-  color: #1d2e15;
+  text-align: center;
 }
 
 a {
@@ -20,21 +13,22 @@ a:hover {
 
 table {
   background-color: #48613c;
-  padding: 0 15px 15px 15px;
+  color: #eee8aa;
+  width: 50%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr {
   border-style: none;
-  background-color: #1d2e15;
-  width: 75%;
+  background-color: grey;
+  width: 100%;
 }
 
-img {
-  max-width: 900px;
+h3 {
+  color: #0f1a12;
+  margin: 0 5px 5px 5px;
 }
 
 /****CLASS STYLES****/
-.card {
-  width: 900px;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
-}
