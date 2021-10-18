@@ -1,14 +1,37 @@
+/**COLLOR PALLET
+Lime-Green #76B947
+Kelly-Green #B1D8B7
+Seafoam-Green #2F5233
+Spearmint #94C973
+**/
 /***WEB DEV BOOTCAMP CSS STYLES****/
 body {
+  margin: 0;
   text-align: center;
 }
 
+h1 {
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+
+h3 {
+  color: #0f1a12;
+  margin: 0 5px 5px 5px;
+}
+
 a {
-  color: orange;
+  color: purple;
 }
 
 a:hover {
   color: yellow;
+}
+
+hr {
+  border-style: none;
+  background-color: grey;
+  width: 100%;
 }
 
 table {
@@ -20,15 +43,7 @@ table {
   margin-right: auto;
 }
 
-hr {
-  border-style: none;
-  background-color: grey;
-  width: 100%;
-}
-
-h3 {
-  color: #0f1a12;
-  margin: 0 5px 5px 5px;
-}
-
 /****CLASS STYLES****/
+.top-container {
+  background-color: #B1D8B7;
+}
