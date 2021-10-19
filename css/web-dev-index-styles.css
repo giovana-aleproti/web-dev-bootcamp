@@ -3,25 +3,35 @@ Lime-Green #76B947
 Kelly-Green #B1D8B7
 Seafoam-Green #2F5233
 Spearmint #94C973
+Palegoldenrod #eee8aa;
 **/
 /***WEB DEV BOOTCAMP CSS STYLES****/
 body {
   margin: 0;
   text-align: center;
+  font-family: verdana, arial, sans-serif;
 }
 
 h1 {
+  font-family: 'Montserrat', sans-serif;
   margin: 0 auto 0 auto;
   width: 50%;
+  color: #2F5233;
+}
+
+h2 {
+  font-family: 'Italianno', cursive;
+  color: grey;
 }
 
 h3 {
-  color: #0f1a12;
-  margin: 0 5px 5px 5px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto 0 auto;
+  color: #2F5233;
 }
 
 a {
-  color: purple;
+  color: #2F5233;
 }
 
 a:hover {
@@ -31,7 +41,7 @@ a:hover {
 hr {
   border-style: none;
   background-color: grey;
-  width: 100%;
+  width: 80%;
 }
 
 table {
@@ -46,4 +56,24 @@ table {
 /****CLASS STYLES****/
 .top-container {
   background-color: #B1D8B7;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  background-color: #B1D8B7;
+  padding: 100px;
 }
