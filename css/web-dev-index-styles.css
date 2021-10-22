@@ -4,12 +4,14 @@ Kelly-Green #B1D8B7
 Seafoam-Green #2F5233
 Spearmint #94C973
 Palegoldenrod #eee8aa;
+Orange-yellow #fc8803
 **/
 /***WEB DEV BOOTCAMP CSS STYLES****/
 body {
   margin: 0;
   text-align: center;
   font-family: verdana, arial, sans-serif;
+  background-color: #B1D8B7;
 }
 
 h1 {
@@ -27,7 +29,14 @@ h2 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   margin: 0 auto 0 auto;
+  padding-bottom: 10px;
   color: #2F5233;
+  font-size: 35px;
+}
+
+p {
+  color: #eee8aa;
+  padding-top: 20px;
 }
 
 a {
@@ -35,30 +44,21 @@ a {
 }
 
 a:hover {
-  color: yellow;
+  color: #fc8803;
 }
 
-hr {
+/*hr {
   border-style: none;
   background-color: grey;
   width: 80%;
-}
-
-table {
-  background-color: #48613c;
-  color: #eee8aa;
-  width: 50%;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-}
+}*/
 
 /****CLASS STYLES****/
+/*top*/
 .top-container {
-  background-color: #B1D8B7;
   position: relative;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .top-cloud {
@@ -72,8 +72,35 @@ table {
   left: 300px;
   bottom: 300px;
 }
-
+/*middle*/
 .middle-container {
-  background-color: #B1D8B7;
-  padding: 100px;
+  background-color: #94C973;
+  padding: 70px;
+}
+
+.project-list {
+  text-align: center;
+  padding: 0.5% 30% 0.5% 30%;
+  display: flex;
+}
+
+.middle-container-img {
+  width: 75px;
+  padding: 2%;
+}
+
+/*bottom*/
+.bottom-container {
+  font-size: 20px;
+  padding: 70px;
+}
+
+.footer-icons-div {
+  text-align: center;
+  padding-top: 20px; 
+  display: inline-block;
+}
+
+.footer-img {
+  width: 75px;
 }
