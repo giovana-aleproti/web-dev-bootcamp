@@ -72,10 +72,16 @@ a:hover {
   left: 300px;
   bottom: 300px;
 }
-/*middle*/
-.middle-container {
+
+/*middle-1*/
+.middle-container-1 {
   background-color: #94C973;
-  padding: 70px;
+  padding: 50px;
+}
+
+.middle-container-1-img {
+  width: 75px;
+  padding: 2%;
 }
 
 .project-list {
@@ -84,9 +90,58 @@ a:hover {
   display: flex;
 }
 
-.middle-container-img {
-  width: 75px;
-  padding: 2%;
+/*middle-2*/
+.middle-container-2 {
+  padding: 50px;
+}
+
+.middle-container-2 p {
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+.paragraph-container {
+  width: 240px;
+  padding: 0 10px 20px 20px;
+}
+.paragraph-container  p {
+  color: #2F5233;
+}
+
+.biography-img {
+  width: 200px;
+  height: 200px;
+}
+
+.biography-1 {
+  padding: 1.5% 40% 1.5% 20%;
+  display: inline-flex;
+}
+
+.biography-2 {
+  padding: 1.5% 20% 1.5% 40%;
+  display: inline-flex;
+}
+
+.biography-3 {
+  padding: 1.5% 22% 1.5% 38%;
+  display: inline-flex;
+}
+
+.biography-4 {
+  padding: 1.5% 40% 1.5% 20%;
+  display: inline-flex;
+}
+
+.biography-5 {
+  padding: 1.5% 40% 1.5% 20%;
+  display: inline-flex;
+}
+
+.biography-6 {
+  padding: 1.5% 20% 1.5% 40%;
+  display: inline-flex;
 }
 
 /*bottom*/
@@ -97,7 +152,7 @@ a:hover {
 
 .footer-icons-div {
   text-align: center;
-  padding-top: 20px; 
+  padding-top: 20px;
   display: inline-block;
 }
 
