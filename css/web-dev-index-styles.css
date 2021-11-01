@@ -23,6 +23,7 @@ h1 {
 
 h2 {
   font-family: 'Italianno', cursive;
+  font-size: 2em;
   color: grey;
 }
 
@@ -73,6 +74,12 @@ a:hover {
   bottom: 300px;
 }
 
+.p-styled p {
+  color: grey;
+  justify-content: right;
+  padding: 0;
+}
+
 /*middle-1*/
 .middle-container-1 {
   background-color: #94C973;
@@ -93,6 +100,7 @@ a:hover {
 /*middle-2*/
 .middle-container-2 {
   padding: 50px;
+  background-color: #eee8aa;
 }
 
 .middle-container-2 p {
@@ -102,46 +110,21 @@ a:hover {
 }
 
 .paragraph-container {
-  width: 240px;
-  padding: 0 10px 20px 20px;
+  padding: 50px;
+
 }
 .paragraph-container  p {
-  color: #2F5233;
+  color: #76B947;
+}
+
+.biography {
+  padding: 1.5% 20% 1.5% 20%;
+  display: inline-flex;
 }
 
 .biography-img {
   width: 200px;
   height: 200px;
-}
-
-.biography-1 {
-  padding: 1.5% 40% 1.5% 20%;
-  display: inline-flex;
-}
-
-.biography-2 {
-  padding: 1.5% 20% 1.5% 40%;
-  display: inline-flex;
-}
-
-.biography-3 {
-  padding: 1.5% 22% 1.5% 38%;
-  display: inline-flex;
-}
-
-.biography-4 {
-  padding: 1.5% 40% 1.5% 20%;
-  display: inline-flex;
-}
-
-.biography-5 {
-  padding: 1.5% 40% 1.5% 20%;
-  display: inline-flex;
-}
-
-.biography-6 {
-  padding: 1.5% 20% 1.5% 40%;
-  display: inline-flex;
 }
 
 /*bottom*/
