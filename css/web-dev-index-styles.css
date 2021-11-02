@@ -1,10 +1,11 @@
 /**COLLOR PALLET
-Lime-Green #76B947
-Kelly-Green #B1D8B7
-Seafoam-Green #2F5233
-Spearmint #94C973
-Palegoldenrod #eee8aa;
-Orange-yellow #fc8803
+Seafoam-Green   #2F5233
+Lime-Green      #76B947
+Spearmint       #94C973
+Kelly-Green     #B1D8B7
+Grey-normal     #7d7d7d
+Palegoldenrod   #eee8aa
+Orange-yellow   #fc8803
 **/
 /***WEB DEV BOOTCAMP CSS STYLES****/
 body {
@@ -24,7 +25,7 @@ h1 {
 h2 {
   font-family: 'Italianno', cursive;
   font-size: 2em;
-  color: grey;
+  color: #7d7d7d;
 }
 
 h3 {
@@ -38,6 +39,7 @@ h3 {
 p {
   color: #eee8aa;
   padding-top: 20px;
+  line-height: 2;
 }
 
 a {
@@ -50,7 +52,7 @@ a:hover {
 
 /*hr {
   border-style: none;
-  background-color: grey;
+  background-color: #7d7d7d;
   width: 80%;
 }*/
 
@@ -63,19 +65,32 @@ a:hover {
 }
 
 .top-cloud {
+  height: 100px;
   position: absolute;
-  right: 200px;
-  top: 50px;
+  right: 375px;
+  top: 25px;
+}
+
+.middle-cloud {
+  height: 150px;
+  position: absolute;
+  right: 250px;
+  top: 250px;
 }
 
 .bottom-cloud {
+  height: 100px;
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
 
+.top-container h1 {
+  padding-top: 100px;
+}
+
 .p-styled p {
-  color: grey;
+  color: #7d7d7d;
   justify-content: right;
   padding: 0;
 }
@@ -83,7 +98,7 @@ a:hover {
 /*middle-1*/
 .middle-container-1 {
   background-color: #94C973;
-  padding: 50px;
+  padding: 100px;
 }
 
 .middle-container-1-img {
@@ -99,38 +114,43 @@ a:hover {
 
 /*middle-2*/
 .middle-container-2 {
-  padding: 50px;
+  padding: 100px;
   background-color: #eee8aa;
 }
 
 .middle-container-2 p {
   padding: 0;
   margin: 0;
-  text-align: justify;
+  text-align: left;
 }
 
 .paragraph-container {
-  padding: 50px;
+  padding: 30px;
 
 }
 .paragraph-container  p {
   color: #76B947;
 }
 
-.biography {
-  padding: 1.5% 20% 1.5% 20%;
+.biography-left {
+  padding: 0 20% 0 20%;
+  display: inline-flex;
+}
+
+.biography-right {
+  padding: 0 20% 0 20%;
   display: inline-flex;
 }
 
 .biography-img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 /*bottom*/
 .bottom-container {
   font-size: 20px;
-  padding: 70px;
+  padding: 100px;
 }
 
 .footer-icons-div {
