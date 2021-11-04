@@ -1,0 +1,51 @@
+/*
+Marrom-café  #785635
+Creme        #dec699
+Amarelo-Chá  #d19930
+Verde-menta  #388f45
+Branco       #ffffff
+*/
+
+/*Geral*/
+body {
+  background-color: white;
+}
+img {
+  width: 500px;
+}
+
+h1 {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Ids*/
+#title {
+  background-color: #785635;
+}
+
+#content {
+  background-color: #ffffff;
+}
+
+#testimonials {
+  background-color: #dec699;
+}
+
+#press {
+  background-color: #ffffff;
+}
+
+#pricing {
+  background-color: #dec699;
+}
+
+#cta {
+  background-color: #ffffff;
+}
+
+#footer {
+  background-color: #388f45;
+}
+/*Classes*/
