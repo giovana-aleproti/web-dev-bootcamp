@@ -48,4 +48,8 @@ h1 {
 #footer {
   background-color: #388f45;
 }
+
 /*Classes*/
+.container-fluid {
+  padding: 3% 5%;
+}
