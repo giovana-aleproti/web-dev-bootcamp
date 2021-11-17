@@ -10,12 +10,10 @@ Branco       #ffffff
 body {
   background-color: white;
 }
-img {
-  width: 500px;
-}
+
 
 h1 {
-  font-family: "Ubuntu";
+  font-family: "Montserrat-Black";
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -23,8 +21,10 @@ h1 {
 /*Ids*/
 #title {
   background-color: #785635;
+  color: white;
+  padding: 2% 5%;
 }
-
+/*
 #content {
   background-color: #ffffff;
 }
@@ -47,9 +47,14 @@ h1 {
 
 #footer {
   background-color: #388f45;
-}
+}*/
 
 /*Classes*/
 .container-fluid {
   padding: 3% 5%;
+}
+
+.img-banner {
+  width: 300px;
+  margin: 0;
 }
