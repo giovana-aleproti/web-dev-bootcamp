@@ -97,13 +97,8 @@ a:hover {
   bottom: 300px;
 }*/
 
-.top-container h1 {
-  padding-top: 100px;
-}
-
 .p-styled p {
   color: #7d7d7d;
-  justify-content: right;
   padding: 0;
 }
 
@@ -115,7 +110,6 @@ a:hover {
 
 .middle-container-1-img {
   width: 75px;
-  padding: 2%;
 }
 
 .project-list {
@@ -125,7 +119,6 @@ a:hover {
 }
 
 .project-list img {
-  padding-right: 20px;
   width: 75px;
 }
 
