@@ -6,6 +6,7 @@ Kelly-Green     #B1D8B7
 Grey-normal     #7d7d7d
 Palegoldenrod   #eee8aa
 Orange-yellow   #fc8803
+Creme           #d9d184
 **/
 /***WEB DEV BOOTCAMP CSS STYLES****/
 body {
@@ -20,12 +21,13 @@ h1 {
   margin: 0 auto 0 auto;
   width: 50%;
   color: #2F5233;
+  font-weight: bold;
 }
 
 h2 {
   font-family: 'Italianno', cursive;
   font-size: 2em;
-  color: #7d7d7d;
+  color: #ab413a;
 }
 
 h3 {
@@ -33,11 +35,12 @@ h3 {
   margin: 0 auto 0 auto;
   padding-bottom: 10px;
   color: #2F5233;
-  font-size: 35px;
+  font-size: 45px;
+  font-weight: bold;
 }
 
 p {
-  color: #eee8aa;
+  color: #7d7d7d;
   padding-top: 20px;
   line-height: 2;
 }
@@ -65,7 +68,15 @@ a:hover {
   padding-bottom: 30px;
 }
 
-.top-cloud {
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #fc8803;
+}
+
+/*.top-cloud {
   height: 90px;
   position: absolute;
   right: 375px;
@@ -84,7 +95,7 @@ a:hover {
   position: absolute;
   left: 300px;
   bottom: 300px;
-}
+}*/
 
 .top-container h1 {
   padding-top: 100px;
@@ -98,7 +109,7 @@ a:hover {
 
 /*middle-1*/
 .middle-container-1 {
-  background-color: #94C973;
+  background-color:  #d9d184;
   padding: 100px;
 }
 
@@ -108,7 +119,7 @@ a:hover {
 }
 
 .project-list {
-  text-align: center;
+  text-align: left;
   padding: 0.5% 30% 0.5% 30%;
   display: flex;
 }
@@ -133,9 +144,6 @@ a:hover {
 .paragraph-container {
   padding: 30px;
 
-}
-.paragraph-container  p {
-  color: #76B947;
 }
 
 .biography-left {
